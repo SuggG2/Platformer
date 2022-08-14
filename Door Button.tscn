@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Door Button" type="Node2D"]
+
+[node name="Door2" type="Sprite" parent="."]
+
+[node name="Door" type="StaticBody2D" parent="Door2"]
+
+[node name="Button2" type="Sprite" parent="."]
+
+[node name="Button" type="StaticBody2D" parent="Button2"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
