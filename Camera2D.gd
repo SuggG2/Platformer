@@ -1,25 +1,16 @@
 extends Camera2D
 
-var target = null
-var zoomed = false
-var center = Vector2.ZERO
-
-
-func _ready():
-	center = get_viewport_rect().size/2
+var zoomed = true
+onready var target = get_parent().get_node("Player")
+onready var center = get_viewport_rect().size/2
 
 func _process(delta):
-	if Input.is_action_just_pressed("zoom"):
-		if zoomed:
-			target = null
-			zoomed = false
-		else:
-			target = owner.get_node("Player").global_position
-			zoomed = true
 	if zoomed:
-		zoom = zoom.move_toward(Vector2(.3, .3), .03)
-		position = position.move_toward(target.global_position, 80)
-	
+		zoom = Vector2(0.3,0.3)
+		position =  target.global_position
 	else:
-		zoom = zoom.move_toward(Vector2(1, 1), 0.03)
-		position = position.move_toward(center, 80)
+		zoom = Vector2(1,1)
+		position = center
+
+	if Input.is_action_just_pressed("zoom"):
+		zoomed = not zoomed
