@@ -337,8 +337,7 @@ scale = Vector2( 1, 0.750001 )
 [node name="Door" parent="Door Button" index="1"]
 position = Vector2( 143, 5 )
 
-[node name="TileMap" type="TileMap" parent="Door Button"]
-position = Vector2( -669, -51 )
+[node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 20 )
 cell_size = Vector2( 16, 16 )
 format = 1
