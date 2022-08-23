@@ -4,8 +4,9 @@
 [ext_resource path="res://Scenes/Sprite.gd" type="Script" id=2]
 [ext_resource path="res://Sprites/hero/herochar_spritesheet(new).png" type="Texture" id=3]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 6.5, 6.5 )
+[sub_resource type="CapsuleShape2D" id=8]
+radius = 6.0
+height = 4.0
 
 [sub_resource type="Animation" id=6]
 resource_name = "Fall"
@@ -121,8 +122,8 @@ frame = 40
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -1.5, 1.5 )
-shape = SubResource( 1 )
+position = Vector2( -1, 1 )
+shape = SubResource( 8 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Fall = SubResource( 6 )
