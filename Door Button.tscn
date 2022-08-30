@@ -215,6 +215,7 @@ tracks/4/keys = {
 script = ExtResource( 5 )
 
 [node name="Button" type="Sprite" parent="."]
+position = Vector2( 106, 40 )
 texture = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
