@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Node2D.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Sprite.gd" type="Script" id=2]
@@ -108,6 +108,10 @@ tracks/0/keys = {
 "values": [ 9, 10, 11, 12, 13, 13 ]
 }
 
+[sub_resource type="CapsuleShape2D" id=9]
+radius = 6.0
+height = 6.0
+
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 159, 131 )
 script = ExtResource( 1 )
@@ -132,3 +136,9 @@ anims/Jump = SubResource( 7 )
 anims/Pushing = SubResource( 3 )
 anims/RESET = SubResource( 4 )
 anims/Running = SubResource( 5 )
+
+[node name="DeathZone" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeathZone"]
+position = Vector2( 0, 1 )
+shape = SubResource( 9 )
