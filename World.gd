@@ -6,7 +6,7 @@ func _ready():
 
 func _process(delta):
 
-	if Input.is_action_just_pressed("restart"):
+	if Input.is_action_just_pressed("Reset"):
 		GameStats.reset()
 
 func on_Area2D_body_entered(body):
