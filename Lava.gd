@@ -6,7 +6,7 @@ func _ready():
 
 
 
-func _on_Area2D_body_entered(body):
+func _on_Node2D_body_entered(body):
 	if body.is_in_group("Player"):
 		print("Player Dead")
 		if GameStats.check_reset() == false:

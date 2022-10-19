@@ -6,7 +6,7 @@
 [ext_resource path="res://SwingingTrap.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Camera2D.gd" type="Script" id=5]
 [ext_resource path="res://Door Button.tscn" type="PackedScene" id=6]
-[ext_resource path="res://Other images/maxresdefault (1).jpg" type="Texture" id=7]
+[ext_resource path="res://thumbnail_IMG_1541.jpg" type="Texture" id=7]
 [ext_resource path="res://SpinningBlade.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Lava.tscn" type="PackedScene" id=9]
 [ext_resource path="res://SpinningBlade.gd" type="Script" id=10]
@@ -251,8 +251,8 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 script = ExtResource( 13 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 649, 359.5 )
-scale = Vector2( 0.979688, 0.968055 )
+position = Vector2( 647.875, 442.722 )
+scale = Vector2( 1.33776, 0.691059 )
 texture = ExtResource( 7 )
 
 [node name="Player" parent="." groups=["Player"] instance=ExtResource( 1 )]
