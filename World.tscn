@@ -8,11 +8,11 @@
 [ext_resource path="res://Door Button.tscn" type="PackedScene" id=6]
 [ext_resource path="res://thumbnail_IMG_1541.jpg" type="Texture" id=7]
 [ext_resource path="res://SpinningBlade.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Lava.tscn" type="PackedScene" id=9]
 [ext_resource path="res://SpinningBlade.gd" type="Script" id=10]
 [ext_resource path="res://Traps/Saw/On (38x38).png" type="Texture" id=11]
 [ext_resource path="res://SavePoint.tscn" type="PackedScene" id=12]
 [ext_resource path="res://World.gd" type="Script" id=13]
+[ext_resource path="res://Lav3a.tscn" type="PackedScene" id=14]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
@@ -440,38 +440,11 @@ position = Vector2( 0, 0 )
 
 [node name="Lava" type="Node2D" parent="."]
 
-[node name="Lava" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 968, 344 )
+[node name="Lava3" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 327, 328 )
 
-[node name="Lava2" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 984, 344 )
-
-[node name="Lava3" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1000, 344 )
-
-[node name="Lava10" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 311, 329 )
-
-[node name="Lava11" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 327, 329 )
-
-[node name="Lava4" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1016, 344 )
-
-[node name="Lava5" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1032, 344 )
-
-[node name="Lava6" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1048, 344 )
-
-[node name="Lava7" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1064, 344 )
-
-[node name="Lava8" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1080, 344 )
-
-[node name="Lava9" parent="Lava" instance=ExtResource( 9 )]
-position = Vector2( 1096, 344 )
+[node name="Lava2" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 311, 328 )
 
 [node name="Savepoint" type="Node2D" parent="."]
 
