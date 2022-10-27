@@ -251,7 +251,7 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 script = ExtResource( 13 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 647.875, 442.722 )
+position = Vector2( 663, 472 )
 scale = Vector2( 1.33776, 0.691059 )
 texture = ExtResource( 7 )
 
@@ -280,12 +280,64 @@ rotation = -3.13349
 position = Vector2( 536, 251 )
 rotation = -3.13349
 
+[node name="Spike Trap22" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 389, 648 )
+rotation = -3.13349
+
+[node name="Spike Trap28" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 374, 648 )
+rotation = -3.13349
+
+[node name="Spike Trap29" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 358, 648 )
+rotation = -3.13349
+
+[node name="Spike Trap23" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 405, 648 )
+rotation = -3.13349
+
+[node name="Spike Trap24" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 406, 598 )
+rotation = 0.00718784
+
+[node name="Spike Trap25" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 390, 598 )
+rotation = 0.00718784
+
+[node name="Spike Trap26" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 374, 598 )
+rotation = 0.00718784
+
+[node name="Spike Trap27" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 361, 597 )
+rotation = 0.00718784
+
 [node name="Spike Trap9" parent="Spike Traps" instance=ExtResource( 3 )]
 position = Vector2( 582, 285 )
 rotation = -3.13349
 
 [node name="Spike Trap19" parent="Spike Traps" instance=ExtResource( 3 )]
 position = Vector2( 873, 363 )
+rotation = -3.13349
+
+[node name="Spike Trap30" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 968, 344 )
+rotation = -3.13349
+
+[node name="Spike Trap31" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 1014, 345 )
+rotation = -3.13349
+
+[node name="Spike Trap32" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 1030, 345 )
+rotation = -3.13349
+
+[node name="Spike Trap34" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 1046, 345 )
+rotation = -3.13349
+
+[node name="Spike Trap33" parent="Spike Traps" instance=ExtResource( 3 )]
+position = Vector2( 1096, 346 )
 rotation = -3.13349
 
 [node name="Spike Trap21" parent="Spike Traps" instance=ExtResource( 3 )]
@@ -361,6 +413,15 @@ position = Vector2( 748, 128 )
 
 [node name="SwingingTrap9" parent="Swing Traps" instance=ExtResource( 4 )]
 position = Vector2( 716, 160 )
+
+[node name="SwingingTrap12" parent="Swing Traps" instance=ExtResource( 4 )]
+position = Vector2( 600, 511 )
+
+[node name="SwingingTrap13" parent="Swing Traps" instance=ExtResource( 4 )]
+position = Vector2( 560, 511 )
+
+[node name="SwingingTrap14" parent="Swing Traps" instance=ExtResource( 4 )]
+position = Vector2( 520, 512 )
 
 [node name="SwingingTrap10" parent="Swing Traps" instance=ExtResource( 4 )]
 position = Vector2( 684, 192 )
@@ -443,6 +504,42 @@ position = Vector2( 0, 0 )
 [node name="Lava3" parent="Lava" instance=ExtResource( 14 )]
 position = Vector2( 327, 328 )
 
+[node name="Lava4" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 344, 440 )
+
+[node name="Lava8" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 776, 456 )
+
+[node name="Lava9" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 762, 456 )
+
+[node name="Lava10" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 750, 456 )
+
+[node name="Lava11" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 735, 456 )
+
+[node name="Lava12" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 720, 456 )
+
+[node name="Lava13" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 707, 456 )
+
+[node name="Lava14" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 692, 456 )
+
+[node name="Lava15" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 680, 456 )
+
+[node name="Lava5" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 359, 440 )
+
+[node name="Lava6" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 375, 440 )
+
+[node name="Lava7" parent="Lava" instance=ExtResource( 14 )]
+position = Vector2( 377, 440 )
+
 [node name="Lava2" parent="Lava" instance=ExtResource( 14 )]
 position = Vector2( 311, 328 )
 
@@ -450,6 +547,18 @@ position = Vector2( 311, 328 )
 
 [node name="SavePoint" parent="Savepoint" instance=ExtResource( 12 )]
 position = Vector2( 183, 102 )
+
+[node name="SavePoint2" parent="Savepoint" instance=ExtResource( 12 )]
+position = Vector2( 918, 87 )
+
+[node name="SavePoint3" parent="Savepoint" instance=ExtResource( 12 )]
+position = Vector2( 872, 232 )
+
+[node name="SavePoint4" parent="Savepoint" instance=ExtResource( 12 )]
+position = Vector2( 74, 407 )
+
+[node name="SavePoint5" parent="Savepoint" instance=ExtResource( 12 )]
+position = Vector2( 70, 583 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 20 )
