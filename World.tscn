@@ -4,14 +4,14 @@
 [ext_resource path="res://Sprites/tiles/tileset.png" type="Texture" id=2]
 [ext_resource path="res://SpikeTrap.tscn" type="PackedScene" id=3]
 [ext_resource path="res://SwingingTrap.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Camera2D.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/Camera2D.gd" type="Script" id=5]
 [ext_resource path="res://Door Button.tscn" type="PackedScene" id=6]
 [ext_resource path="res://thumbnail_IMG_1541.jpg" type="Texture" id=7]
 [ext_resource path="res://SpinningBlade.tscn" type="PackedScene" id=8]
-[ext_resource path="res://SpinningBlade.gd" type="Script" id=10]
+[ext_resource path="res://Scripts/SpinningBlade.gd" type="Script" id=10]
 [ext_resource path="res://Traps/Saw/On (38x38).png" type="Texture" id=11]
 [ext_resource path="res://SavePoint.tscn" type="PackedScene" id=12]
-[ext_resource path="res://World.gd" type="Script" id=13]
+[ext_resource path="res://Scripts/World.gd" type="Script" id=13]
 [ext_resource path="res://Lav3a.tscn" type="PackedScene" id=14]
 
 [sub_resource type="Animation" id=1]
@@ -558,7 +558,7 @@ position = Vector2( 872, 232 )
 position = Vector2( 74, 407 )
 
 [node name="SavePoint5" parent="Savepoint" instance=ExtResource( 12 )]
-position = Vector2( 70, 583 )
+position = Vector2( 664, 662 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 20 )
